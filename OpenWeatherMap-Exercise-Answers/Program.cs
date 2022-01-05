@@ -32,6 +32,7 @@ namespace OpenWeatherMap_Exercise
 
             // TODO: Write out the current temperature in degrees Fahrenheit
             Console.WriteLine($"The current Temperature is {JObject.Parse(formattedResponse).GetValue("temp")} degrees Fahrenheit");
+
         }
     }
 }
